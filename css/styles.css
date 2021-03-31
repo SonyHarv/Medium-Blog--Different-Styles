@@ -7,14 +7,27 @@
 }
 
 body {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    color: var(--gris40);
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    block-size: 350px;
+    background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0.225), transparent), url(../images/patron-1.png);
 }
 
 header {
     color: var(--gris60);
     font-size: 14px;
     /* border: 1px solid red; */
+}
+
+header li {
+    /* border: 1px solid red; */
+    margin-block: 16px;
+    font-weight: normal;
 }
 
 nav details summary {
@@ -25,13 +38,40 @@ nav details summary {
     /* text-decoration-line: none; */
 }
 
-header li {
-    /* border: 1px solid red; */
-    margin-block: 16px;
+h1 {
+    color: var(--gris20);
+    font-size: 60px;
     font-weight: normal;
+    margin-block-start: 64px;
+    margin-block-end: 16px;
 }
 
-.hero {
-    block-size: 350px;
-    background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0.225), transparent), url(../images/patron-1.png);
+h1+p {
+    border: 1px solid red;
+    /* //me quede aqui */
+}
+
+hr {
+    margin-block-start: 64px;
+    margin-block-end: 64px
+}
+
+h2 {
+    color: var(--gris20);
+    margin-block-start: 0;
+    margin-block-end: 40px;
+}
+
+img {
+    margin-block-end: 16px;
+}
+
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 24px;
+}
+
+blockquote {
+    margin-block-start: 0;
+    margin-block-end: 64px;
 }
