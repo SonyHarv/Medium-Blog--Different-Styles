@@ -105,7 +105,7 @@ pre {
     /* border: 1px solid red; */
     display: block;
     margin-block-start: 40px;
-    margin-block-end: 16px;
+    /* margin-block-end: 16px; */
     max-inline-size: 100%;
 }
 
@@ -120,8 +120,9 @@ pre {
     margin-block-start: 16px;
 }
 
-.section-content h3:first-of-type {
-    border: 1px solid red;
+.section-h3 {
+    /* border: 1px solid red; */
+    margin-block-start: 16px;
 }
 
 .wrapper {
