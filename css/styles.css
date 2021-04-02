@@ -6,6 +6,10 @@
     --gris60: #616161;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* border: 1px solid red; */
     color: var(--gris40);
@@ -27,7 +31,23 @@ body em {
 header {
     color: var(--gris60);
     font-size: 14px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: -208px;
+    inline-size: 188px;
+}
+
+.header {
+    /* border: 1px solid green; */
+    position: sticky;
+    inset-block-start: -55px;
+}
+
+.header-content {
     /* border: 1px solid red; */
+    position: relative;
+    inset-block-start: 65px;
 }
 
 header li {
@@ -36,12 +56,24 @@ header li {
     font-weight: normal;
 }
 
+header a {
+    /* border: 1px solid red; */
+    color: var(--gris60);
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+
+header a:hover {
+    color: var(--gris20);
+}
+
 nav details summary {
     /* border: 1px solid red; */
     font-weight: bold;
     margin-block-start: 24px;
     margin-block-end: 16px;
-    /* text-decoration-line: none; */
+    outline-color: var(--gris60);
 }
 
 h1 {
@@ -79,6 +111,7 @@ h3 {
 }
 
 blockquote {
+    border-inline-start: 4px solid var(--gris20);
     margin-block-start: 32px;
     margin-block-end: 64px;
     font-size: 24px;
@@ -90,6 +123,10 @@ blockquote span {
     /* border: 1px solid red; */
     color: var(--gris60);
     font-size: 24px;
+}
+
+blockquote span::before {
+    content: '-';
 }
 
 pre {
@@ -123,6 +160,30 @@ pre {
 .section-h3 {
     /* border: 1px solid red; */
     margin-block-start: 16px;
+}
+
+.section-content h3 {
+    counter-increment: titleList;
+    position: relative;
+    /* inset-block-start: 4px; */
+    padding-block-end: 8px;
+    /* border: 1px solid red; */
+}
+
+.section-content h3::before {
+    content: counter(titleList, decimal) '. ';
+}
+
+.section-content h3::after {
+    /* border: 1px solid red; */
+    content: '';
+    display: inline-block;
+    block-size: 4px;
+    inline-size: 80px;
+    background: var(--gris40);
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
 }
 
 .wrapper {
