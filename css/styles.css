@@ -196,3 +196,40 @@ pre {
     padding-inline-start: 16px;
     padding-inline-end: 16px;
 }
+
+.slider-container {
+    /* border: 1px solid red; */
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-size: 0;
+}
+
+.video {
+    /* border: 1px solid green; */
+    display: inline-block;
+    inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 16/9;
+    margin: 0;
+}
+
+.slider-bullet-list {
+    /* border: 1px solid red; */
+    margin-block-start: 16px;
+    text-align: center;
+}
+
+.slider-bullet {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    background: rgba(66, 66, 66, 0.2);
+    block-size: 16px;
+    inline-size: 16px;
+    border-radius: 50%;
+}
+
+.slider-bullet:hover {
+    background: var(--gris40);
+}
