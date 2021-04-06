@@ -74,6 +74,7 @@ nav details summary {
     margin-block-start: 24px;
     margin-block-end: 16px;
     outline-color: var(--gris60);
+    cursor: pointer;
 }
 
 h1 {
@@ -91,7 +92,8 @@ h1+p {
 
 hr {
     margin-block-start: 64px;
-    margin-block-end: 64px
+    margin-block-end: 64px;
+    border: 1px solid rgba(97, 97, 97, 0.2);
 }
 
 h2 {
@@ -232,4 +234,77 @@ pre {
 
 .slider-bullet:hover {
     background: var(--gris40);
+}
+
+.mailto {
+    /* border: 1px solid red; */
+    margin-block-start: 40px;
+}
+
+.newsletter-h2 {
+    /* border: 1px solid red; */
+    margin-block-end: 0;
+}
+
+.form input {
+    border: 1px solid var(--gris60);
+    box-sizing: border-box;
+    border-radius: 90px;
+    block-size: 48px;
+    inline-size: 280px;
+    padding-block-start: 12px;
+    padding-block-end: 12px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    margin-block-start: 16px;
+    outline: none;
+    /* outline-color: #157EFB; */
+    font-size: 16px;
+    color: var(--gris40);
+}
+
+.form input[type="submit"] {
+    /* border: 1px solid red; */
+    color: var(--white);
+    font-weight: 500;
+    background: #000000;
+    inline-size: 119px;
+    position: relative;
+    inset-inline-start: -67px;
+    cursor: pointer;
+}
+
+.form input::-webkit-input-placeholder {
+    color: var(--gris40);
+}
+
+footer {
+    /* border: 1px solid red; */
+    /* block-size: 174px; */
+    inline-size: 100%;
+    background: #212429;
+    /* text-align: center; */
+    margin-block-start: 113px;
+    padding-block-start: 48px;
+    padding-block-end: 48px;
+}
+
+.footer-content {
+    /* border: 1px solid red; */
+    margin: 0;
+    text-align: center;
+}
+
+.footer-content p {
+    color: var(--white);
+    font-size: 32px;
+    line-height: 37px;
+    margin-block-end: 19px;
+    margin-block-start: 0;
+}
+
+.footer-content img {
+    /* border: 1px solid red; */
+    margin-inline-end: 19px;
+    cursor: pointer;
 }
