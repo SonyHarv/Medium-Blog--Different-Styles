@@ -1,0 +1,45 @@
+:root {
+    font-size: 18px;
+    --white: #FFFFFF;
+    --gris25: #251F24;
+    --grisA5: #A5A3A5;
+    --gris3A: #3A3539;
+}
+
+body {
+    /* border: 1px solid red; */
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: var(--gris25);
+}
+
+.hero {
+    /* border: 1px solid blueviolet; */
+    block-size: 19.444rem;
+    background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+}
+
+header {
+    /* border: 1px solid red; */
+    font-size: 0.778rem;
+    color: var(--white);
+}
+
+.header-content {}
+
+header p {
+    /* border: 1px solid red; */
+    font-weight: 700;
+}
+
+header li {
+    /* border: 1px solid blue; */
+    color: var(--grisA5);
+    margin-block-end: 0.889rem;
+}
+
+nav details summary {
+    /* border: 1px solid red; */
+    font-weight: 700;
+    margin-block-start: 1.333rem;
+}
