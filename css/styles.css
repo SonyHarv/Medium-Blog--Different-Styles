@@ -24,13 +24,13 @@ body em {
 }
 
 .hero {
-    block-size: 130px;
+    block-size: 8.125rem;
     background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0.225), transparent), url(../images/patron-1.png);
 }
 
 header {
     color: var(--gris60);
-    font-size: 14px;
+    font-size: 0.875rem;
     /* border: 1px solid yellow; */
     /* position: absolute;
     inset-block-start: 0; */
@@ -48,21 +48,21 @@ header {
     /* border: 1px solid red; */
     /* position: relative;
     inset-block-start: 65px; */
-    margin-block-start: 20px;
-    padding-inline-start: 16px;
-    padding-inline-end: 16px;
+    margin-block-start: 1.25rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
 }
 
 header li {
     /* border: 1px solid red; */
-    margin-block: 16px;
+    margin-block: 1rem;
     font-weight: normal;
 }
 
 header a {
     /* border: 1px solid red; */
     color: var(--gris60);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: normal;
     text-decoration-line: none;
 }
@@ -74,18 +74,18 @@ header a:hover {
 nav details summary {
     /* border: 1px solid red; */
     font-weight: bold;
-    margin-block-start: 24px;
-    margin-block-end: 16px;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1rem;
     outline-color: var(--gris60);
     cursor: pointer;
 }
 
 h1 {
     color: var(--gris20);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: normal;
-    margin-block-start: 46px;
-    margin-block-end: 16px;
+    margin-block-start: 2.875rem;
+    margin-block-end: 1rem;
 }
 
 h1+p {
@@ -94,40 +94,40 @@ h1+p {
 }
 
 hr {
-    margin-block-start: 64px;
-    margin-block-end: 64px;
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
     border: 1px solid rgba(97, 97, 97, 0.2);
 }
 
 h2 {
     color: var(--gris20);
-    margin-block-start: 40px;
-    margin-block-end: 40px;
-    font-size: 32px;
+    margin-block-start: 2.5rem;
+    margin-block-end: 2.5rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 h3 {
     color: var(--gris40);
-    margin-block-start: 40px;
-    margin-block-end: 16px;
-    font-size: 24px;
+    margin-block-start: 2.5rem;
+    margin-block-end: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
 blockquote {
     border-inline-start: 4px solid var(--gris20);
-    margin-block-start: 32px;
-    margin-block-end: 64px;
-    font-size: 24px;
-    line-height: 32px;
-    padding-inline-start: 16px;
+    margin-block-start: 2rem;
+    margin-block-end: 4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-inline-start: 1rem;
 }
 
 blockquote span {
     /* border: 1px solid red; */
     color: var(--gris60);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 blockquote span::before {
@@ -136,39 +136,39 @@ blockquote span::before {
 
 pre {
     /* border: 1px solid red; */
-    margin-block-end: 40px;
-    line-height: 24px;
+    margin-block-end: 2.5rem;
+    line-height: 1.5rem;
     background-color: #FEC62E;
-    padding: 40px;
+    padding: 2.5rem;
     overflow: auto;
 }
 
 .section-content img {
     /* border: 1px solid red; */
     display: block;
-    margin-block-start: 40px;
+    margin-block-start: 2.5rem;
     max-inline-size: 100%;
 }
 
 .section-content ol li {
     /* border: 1px solid red; */
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 
 .section-content ul li {
     /* border: 1px solid red; */
-    margin-block-start: 16px;
+    margin-block-start: 1rem;
 }
 
 .section-h3 {
     /* border: 1px solid red; */
-    margin-block-start: 16px;
+    margin-block-start: 1rem;
 }
 
 .section-content h3 {
     counter-increment: titleList;
     position: relative;
-    padding-block-end: 8px;
+    padding-block-end: 0.5rem;
     /* border: 1px solid red; */
 }
 
@@ -180,8 +180,8 @@ pre {
     /* border: 1px solid red; */
     content: '';
     display: inline-block;
-    block-size: 4px;
-    inline-size: 80px;
+    block-size: 0.25rem;
+    inline-size: 5rem;
     background: var(--gris40);
     position: absolute;
     inset-block-end: 0;
@@ -190,13 +190,13 @@ pre {
 
 .wrapper {
     /* border: 1px solid red; */
-    max-inline-size: 902px;
+    max-inline-size: 56.375rem;
     margin: auto;
 }
 
 .main-content {
-    padding-inline-start: 16px;
-    padding-inline-end: 16px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
 }
 
 .slider-container {
@@ -219,7 +219,7 @@ pre {
 
 .slider-bullet-list {
     /* border: 1px solid red; */
-    margin-block-start: 16px;
+    margin-block-start: 1rem;
     text-align: center;
 }
 
@@ -227,8 +227,8 @@ pre {
     /* border: 1px solid blue; */
     display: inline-block;
     background: rgba(66, 66, 66, 0.2);
-    block-size: 16px;
-    inline-size: 16px;
+    block-size: 1rem;
+    inline-size: 1rem;
     border-radius: 50%;
 }
 
@@ -238,7 +238,7 @@ pre {
 
 .mailto {
     /* border: 1px solid red; */
-    margin-block-start: 40px;
+    margin-block-start: 2.5rem;
 }
 
 .newsletter-h2 {
@@ -250,15 +250,15 @@ pre {
     border: 1px solid var(--gris60);
     box-sizing: border-box;
     border-radius: 90px;
-    block-size: 48px;
-    inline-size: 280px;
-    padding-block-start: 12px;
-    padding-block-end: 12px;
-    padding-inline-start: 16px;
-    padding-inline-end: 16px;
-    margin-block-start: 16px;
+    block-size: 3rem;
+    inline-size: 17.5rem;
+    padding-block-start: 0.75rem;
+    padding-block-end: 0.75rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    margin-block-start: 1rem;
     outline: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--gris40);
 }
 
@@ -267,7 +267,7 @@ pre {
     color: var(--white);
     font-weight: 500;
     background: #000000;
-    inline-size: 280px;
+    inline-size: 17.5rem;
     position: relative;
     inset-inline-start: 0;
     cursor: pointer;
@@ -281,9 +281,9 @@ footer {
     /* border: 1px solid red; */
     inline-size: 100%;
     background: #212429;
-    margin-block-start: 113px;
-    padding-block-start: 48px;
-    padding-block-end: 48px;
+    margin-block-start: 7.0625rem;
+    padding-block-start: 3rem;
+    padding-block-end: 3rem;
 }
 
 .footer-content {
@@ -294,85 +294,57 @@ footer {
 
 .footer-content p {
     color: var(--white);
-    font-size: 32px;
-    line-height: 37px;
-    margin-block-end: 19px;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    margin-block-end: 1.1875rem;
     margin-block-start: 0;
 }
 
 .footer-content img {
     /* border: 1px solid red; */
-    margin-inline-end: 19px;
+    margin-inline-end: 1.1875rem;
     cursor: pointer;
 }
 
 @media screen and (min-width:1360px) {
     .hero {
-        block-size: 350px;
+        block-size: 21.875rem;
         background-image: linear-gradient(3.36deg, #212325 -63.62%, rgba(255, 255, 255, 0.225), transparent), url(../images/patron-1.png);
     }
     header {
         color: var(--gris60);
-        font-size: 14px;
+        font-size: 0.875rem;
         /* border: 1px solid yellow; */
         position: absolute;
         inset-block-start: 0;
-        inset-inline-start: -208px;
-        inline-size: 188px;
+        inset-inline-start: -13rem;
+        inline-size: 11.75rem;
     }
     .header {
         /* border: 1px solid green; */
         position: sticky;
-        inset-block-start: -55px;
+        inset-block-start: -3.4375rem;
     }
     .header-content {
         /* border: 1px solid red; */
         position: relative;
-        inset-block-start: 65px;
+        inset-block-start: 4.0625rem;
     }
     h1 {
         color: var(--gris20);
-        font-size: 60px;
+        font-size: 3.75rem;
         font-weight: normal;
-        margin-block-start: 64px;
-        margin-block-end: 16px;
+        margin-block-start: 4rem;
+        margin-block-end: 1rem;
     }
     .form input[type="submit"] {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         color: var(--white);
         font-weight: 500;
         background: #000000;
-        inline-size: 119px;
+        inline-size: 7.4375rem;
         position: relative;
-        inset-inline-start: -67px;
+        inset-inline-start: -4.1875rem;
         cursor: pointer;
     }
 }
-
-
-/* @media screen and (min-width:736px) {
-    .form input[type="submit"] {
-        /* border: 1px solid red; 
-        color: var(--white);
-        font-weight: 500;
-        background: #000000;
-        inline-size: 119px;
-        position: relative;
-        inset-inline-start: -67px;
-        cursor: pointer;
-    }
-} */
-
-
-/* @media screen and (min-width:613px) {
-    .form input[type="submit"] {
-        /* border: 1px solid red; 
-        color: var(--white);
-        font-weight: 500;
-        background: #000000;
-        inline-size: 280px;
-        position: relative;
-        inset-inline-start: 145px;
-        cursor: pointer;
-    }
-} */
