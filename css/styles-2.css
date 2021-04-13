@@ -60,14 +60,14 @@ nav details summary {
 h1 {
     color: var(--white);
     font-size: 4rem;
-    margin-block-start: 64px;
+    margin-block-start: 4rem;
     margin-block-end: 0;
 }
 
 hr {
     border: 1px solid rgba(97, 97, 97, 0.2);
-    margin-block-start: 40px;
-    margin-block-end: 40px;
+    margin-block-start: 2.5rem;
+    margin-block-end: 2.5rem;
 }
 
 em {
@@ -81,6 +81,12 @@ h2 {
     font-weight: 700;
     color: var(--white);
     margin-block-end: 2.5rem;
+    margin-block-start: 0;
+}
+
+.section-content h2 {
+    /* border: 1px solid red; */
+    margin-block-end: 0;
 }
 
 .section-content h3 {
@@ -106,8 +112,14 @@ h2 {
     margin-block-start: 1.875rem;
 }
 
-.section-content p {
+.section-contentEnd img {
+    border: 1px solid green;
+    max-inline-size: 100%;
+}
+
+.section-contentEnd img:last-of-type {
     /* border: 1px solid red; */
+    margin-block-end: 4.4375rem;
 }
 
 blockquote {
@@ -119,12 +131,36 @@ blockquote {
     padding-block-end: 1.5rem;
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.0625rem;
+    margin-block-start: 4.4375rem;
+    margin-block-end: 4.4375rem;
 }
 
 pre {
     color: var(--white);
-    font-size: 16px;
-    line-height: 24px;
-    padding: 40px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 2.5rem;
     background: var(--gris3A);
+    overflow: auto;
+}
+
+.section-contentEnd ol li {
+    /* border: 1px solid red; */
+    line-height: 1.5rem;
+}
+
+.section-contentEnd ul li {
+    /* border: 1px solid red; */
+    margin-block-start: 1rem;
+}
+
+.wrapper {
+    border: 1px solid red;
+    max-inline-size: 39.75rem;
+    margin: auto;
+}
+
+.main-content {
+    padding-inline-start: 0.625rem;
+    padding-inline-end: 0.625rem;
 }
