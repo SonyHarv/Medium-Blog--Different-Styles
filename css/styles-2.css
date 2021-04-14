@@ -218,7 +218,16 @@ pre {
 }
 
 .mailto a {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     color: #0c66d2d9;
     ;
+}
+
+.newsletter {
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-block-start: 2.5rem;
+    margin-block-end: 1rem;
+    line-height: 2.0625rem;
 }
