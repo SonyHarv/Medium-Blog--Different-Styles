@@ -96,6 +96,11 @@ h2 {
     color: var(--white);
     margin-block-start: 1rem;
     margin-block-end: 1rem;
+    counter-increment: titleList;
+}
+
+.section-content h3::before {
+    content: counter(titleList, decimal) ". ";
 }
 
 .section-contentEnd h3 {
@@ -154,6 +159,14 @@ pre {
     margin-block-start: 1rem;
 }
 
+.section-contentH2 h2 {
+    /* border: 1px solid blue; */
+    margin-block-start: 2.5rem;
+    margin-block-end: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
 .wrapper {
     border: 1px solid red;
     max-inline-size: 39.75rem;
@@ -163,4 +176,49 @@ pre {
 .main-content {
     padding-inline-start: 0.625rem;
     padding-inline-end: 0.625rem;
+}
+
+.slider-container {
+    /* border: 1px solid red; */
+    display: block;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.video {
+    display: inline-block;
+    inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 16/9;
+    margin: 0;
+}
+
+.slider-bullet-list {
+    text-align: center;
+    margin-block-start: 1rem;
+}
+
+.slider-bullet {
+    display: inline-block;
+    inline-size: 1rem;
+    block-size: 1rem;
+    border-radius: 50%;
+    background: rgba(66, 66, 66, 0.2);
+    margin-inline-end: 0.25rem;
+}
+
+.slider-bullet:hover {
+    background: var(--white);
+}
+
+.mailto {
+    color: var(--white);
+}
+
+.mailto a {
+    border: 1px solid green;
+    color: #0c66d2d9;
+    ;
 }
