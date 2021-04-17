@@ -70,14 +70,14 @@ header a {
     padding: 0.5rem;
 }
 
+header ol {
+    list-style-type: none;
+}
+
 header a:hover {
     /* color: var(--gris20); */
     color: var(--white);
     background: #5551FF;
-}
-
-header li::marker {
-    border: 1px solid red;
 }
 
 nav details summary {
@@ -255,7 +255,7 @@ pre {
 .slider-bullet {
     /* border: 1px solid blue; */
     display: inline-block;
-    background: rgba(66, 66, 66, 0.2);
+    background: rgba(142, 45, 226, 0.5);
     block-size: 1rem;
     inline-size: 1rem;
     border-radius: 50%;
@@ -350,7 +350,7 @@ footer {
         inset-block-start: 0;
         /* inset-inline-start: -13rem; */
         inset-inline-end: -13rem;
-        inline-size: 11.75rem;
+        inline-size: 12.25rem;
     }
     .header {
         /* border: 1px solid green; */
