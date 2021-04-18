@@ -7,7 +7,6 @@
 }
 
 body {
-    /* border: 1px solid red; */
     margin: 0;
     font-family: 'Nunito', sans-serif;
     background: var(--gris25);
@@ -21,20 +20,68 @@ body p {
 }
 
 .hero {
-    /* border: 1px solid blueviolet; */
     block-size: 8.125rem;
     background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
 }
 
+.headerV {
+    color: var(--grisA5);
+    font-size: 0.875rem;
+}
+
+.hVariantes-content {
+    margin-block-start: 1.25rem;
+    margin-block-end: 32px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.headerV ol {
+    list-style-type: none;
+}
+
+.headerV li {
+    margin-block: 1rem;
+    font-weight: 500;
+}
+
+.headerV li a.active {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1.5625rem;
+    padding-inline-end: 1.5625rem;
+}
+
+.headerV a {
+    color: var(--grisA5);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.headerV a:hover:not(.active) {
+    color: var(--white);
+    background: #4CAF50;
+    border-radius: 5px;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1.5625rem;
+    padding-inline-end: 1.5625rem;
+}
+
+.headerV p {
+    margin-block-start: 2.8125rem;
+    color: var(--white);
+    font-weight: 700;
+}
+
 header {
-    /* border: 1px solid red; */
     font-size: 0.875rem;
     color: var(--white);
 }
-
-
-/* .header {
-} */
 
 .header-content {
     margin-block-start: 1.25rem;
@@ -43,18 +90,15 @@ header {
 }
 
 header p {
-    /* border: 1px solid red; */
     font-weight: 700;
 }
 
 header li {
-    /* border: 1px solid blue; */
     margin-block-end: 1rem;
     color: var(--grisA5);
 }
 
 header a {
-    /* border: 1px solid red; */
     text-decoration: none;
     color: var(--grisA5);
 }
@@ -64,7 +108,7 @@ header a:hover {
 }
 
 nav details summary {
-    /* border: 1px solid red; */
+    color: var(--white);
     font-weight: 700;
     margin-block-start: 1.5rem;
 }
@@ -83,7 +127,6 @@ hr {
 }
 
 em {
-    /* border: 1px solid red; */
     font-weight: 700;
     font-style: italic;
 }
@@ -97,12 +140,10 @@ h2 {
 }
 
 .section-content h2 {
-    /* border: 1px solid red; */
     margin-block-end: 0;
 }
 
 .section-content h3 {
-    /* border: 1px solid red; */
     font-size: 2rem;
     font-weight: 600;
     color: var(--white);
@@ -116,7 +157,6 @@ h2 {
 }
 
 .section-contentEnd h3 {
-    /* border: 1px solid red; */
     font-size: 2rem;
     font-weight: 600;
     color: var(--white);
@@ -125,17 +165,14 @@ h2 {
 }
 
 .section-content img {
-    /* border: 1px solid red; */
     margin-block-start: 1.875rem;
 }
 
 .section-contentEnd img {
-    /* border: 1px solid green; */
     max-inline-size: 100%;
 }
 
 .section-contentEnd img:last-of-type {
-    /* border: 1px solid red; */
     margin-block-end: 4.4375rem;
 }
 
@@ -166,17 +203,14 @@ pre {
 }
 
 .section-contentEnd ol li {
-    /* border: 1px solid red; */
     line-height: 1.5rem;
 }
 
 .section-contentEnd ul li {
-    /* border: 1px solid red; */
     margin-block-start: 1rem;
 }
 
 .section-contentH2 h2 {
-    /* border: 1px solid blue; */
     margin-block-start: 2.5rem;
     margin-block-end: 1rem;
     font-weight: 400;
@@ -184,7 +218,6 @@ pre {
 }
 
 .wrapper {
-    /* border: 1px solid red; */
     max-inline-size: 39.75rem;
     margin: auto;
 }
@@ -195,7 +228,6 @@ pre {
 }
 
 .slider-container {
-    /* border: 1px solid red; */
     display: block;
     white-space: nowrap;
     scroll-behavior: smooth;
@@ -234,13 +266,11 @@ pre {
 }
 
 .mailto a {
-    /* border: 1px solid green; */
     color: #0c66d2d9;
     ;
 }
 
 .section-contentLetter h2 {
-    /* border: 1px solid red; */
     font-size: 1.5rem;
     font-weight: 400;
     margin-block-start: 2.5rem;
@@ -265,7 +295,6 @@ pre {
 }
 
 .form input[type="submit"] {
-    /* border: 1px solid rgb(0, 255, 106); */
     background: #157EFB;
     font-weight: 700;
     cursor: pointer;
@@ -287,7 +316,6 @@ footer {
 }
 
 .section-footer p {
-    /* border: 1px solid red; */
     margin-block-start: 3rem;
     margin-block-end: 1.1875rem;
     font-size: 2rem;
@@ -305,6 +333,22 @@ footer {
     .hero {
         block-size: 21.875rem;
         background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+    }
+    .headerV {
+        color: var(--gris60);
+        font-size: 0.875rem;
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-end: -15rem;
+        inline-size: 14rem;
+    }
+    .hVariantes {
+        position: sticky;
+        inset-block-start: -3.4375rem;
+    }
+    .hVariantes-content {
+        position: relative;
+        inset-block-start: 2.0625rem;
     }
     header {
         font-size: 0.875rem;

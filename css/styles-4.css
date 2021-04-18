@@ -30,6 +30,58 @@ body em {
     background-size: cover, 50px;
 }
 
+.headerV {
+    color: var(--gris60);
+    font-size: 0.875rem;
+}
+
+.hVariantes-content {
+    margin-block-start: 1.25rem;
+    margin-block-end: 32px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.headerV ol {
+    list-style-type: none;
+}
+
+.headerV li {
+    margin-block: 1rem;
+    font-weight: 500;
+}
+
+.headerV li a.active {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1.5625rem;
+    padding-inline-end: 1.5625rem;
+}
+
+.headerV a {
+    color: var(--gris60);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration-line: none;
+}
+
+.headerV a:hover:not(.active) {
+    color: var(--white);
+    background: #4CAF50;
+    border-radius: 5px;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1.5625rem;
+    padding-inline-end: 1.5625rem;
+}
+
+.headerV p {
+    margin-block-start: 2.8125rem;
+}
+
 header {
     color: var(--gris20);
     font-size: 0.875rem;
@@ -335,6 +387,22 @@ footer {
         block-size: 21.875rem;
         background-image: linear-gradient(274.51deg, rgba(74, 0, 224, 0.6) 5%, rgba(142, 45, 226, 0.5) 130.61%), url(../images/patron-2.png);
         background-size: cover, 50px;
+    }
+    .headerV {
+        color: var(--gris60);
+        font-size: 0.875rem;
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-start: -13rem;
+        inline-size: 11.75rem;
+    }
+    .hVariantes {
+        position: sticky;
+        inset-block-start: -3.4375rem;
+    }
+    .hVariantes-content {
+        position: relative;
+        inset-block-start: 2.0625rem;
     }
     header {
         color: var(--gris20);
