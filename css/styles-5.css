@@ -1,9 +1,10 @@
 :root {
     font-size: 16px;
-    --white: #FFFFFF;
-    --gris25: #251F24;
-    --grisA5: #A5A3A5;
-    --gris3A: #3A3539;
+    --white: #FFFFFE;
+    --gris25: #232946;
+    --grisA5: #B8C1EC;
+    --gris3A: #D4939D;
+    --grisEE: #EEBBC3;
 }
 
 body {
@@ -20,11 +21,11 @@ body p {
     margin-block-end: 1rem;
 }
 
-.hero {
-    /* border: 1px solid blueviolet; */
+
+/* .hero {
     block-size: 8.125rem;
     background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
-}
+} */
 
 header {
     /* border: 1px solid red; */
@@ -45,6 +46,7 @@ header {
 header p {
     /* border: 1px solid red; */
     font-weight: 700;
+    margin-block-start: 4rem;
 }
 
 header li {
@@ -141,7 +143,7 @@ h2 {
 
 blockquote {
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--gris25);
     background: var(--gris3A);
     border-radius: 8px;
     padding-block-start: 1.5rem;
@@ -153,7 +155,9 @@ blockquote {
 }
 
 blockquote span::before {
+    /* border: 1px solid red; */
     content: "- ";
+    color: var(--gris25);
 }
 
 pre {
@@ -161,7 +165,8 @@ pre {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 2.5rem;
-    background: var(--gris3A);
+    background: var(--gris25);
+    border-radius: 8px;
     overflow: auto;
 }
 
@@ -252,7 +257,7 @@ pre {
     box-sizing: border-box;
     inline-size: 100%;
     border: 1px solid var(--white);
-    background: #251f24;
+    background: var(--gris25);
     border-radius: 8px;
     display: block;
     margin-block-end: 1.5rem;
@@ -266,11 +271,12 @@ pre {
 
 .form input[type="submit"] {
     /* border: 1px solid rgb(0, 255, 106); */
-    background: #157EFB;
+    background: var(--grisEE);
     font-weight: 700;
     cursor: pointer;
     margin-block-end: 5rem;
     border: none;
+    color: var(--gris25);
 }
 
 .form ::-webkit-input-placeholder {
@@ -279,7 +285,7 @@ pre {
 
 footer {
     border: 1px solid var(--white);
-    background: var(--white);
+    background: var(--grisEE);
 }
 
 .section-footer {
@@ -302,10 +308,10 @@ footer {
 }
 
 @media screen and (min-width:1360px) {
-    .hero {
+    /* .hero {
         block-size: 21.875rem;
         background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
-    }
+    } */
     header {
         font-size: 0.875rem;
         color: var(--white);
