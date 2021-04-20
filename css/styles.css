@@ -332,6 +332,20 @@ footer {
     cursor: pointer;
 }
 
+body::-webkit-scrollbar {
+    inline-size: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #a7a0a0;
+    border-radius: 4px;
+    block-size: 100px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}
+
 @media screen and (min-width:1360px) {
     .hero {
         block-size: 21.875rem;

@@ -328,6 +328,20 @@ footer {
     cursor: pointer;
 }
 
+body::-webkit-scrollbar {
+    inline-size: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6d6666;
+    border-radius: 4px;
+    block-size: 100px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #a7a0a0;
+}
+
 @media screen and (min-width:1360px) {
     .headerV {
         color: var(--white);
